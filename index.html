@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+
+    
+    <header>
+        <nav>
+            <div class="side-bar">
+                <div onclick=hideSidebar()>
+                    <a href="#" class="close-bar">
+                        <i class="fa-solid fa-x"></i>
+                    </a>
+                </div>
+                
+                <div class="nav-links">
+                    
+                    <ul class="nav-link">
+                        <li><a href="#home" class="link">Home</a></li>
+                        <li><a href="#about" class="link">About</a></li>
+                        <li><a href="#services" id="link">Services</a></li>
+                        <li><a href="#portfolio" class="link">Portfolio</a></li>
+                        <li><a href="#review" class="link">Review</a></li>
+                        
+                    </ul>
+                </div>
+               
+            </div>
+           <div class="main-nav">
+            <div class="nav-name">
+                <h2><a href="#">Josephine</a></h2>
+            </div>
+            
+                <ul class="nav-link">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#review">Review</a></li>
+                </ul>
+               
+            
+            <div class="nav-contact" id="contact">
+                <button type="submit">Contact</button>
+            </div>
+            <div onclick=showSidebar()> 
+                <a href="#" class="nav-icon"><i class="fa-solid fa-bars"></i></a> 
+            </div>
+        </div>
+        </nav>   
+    </header>
+    <div class="website-container">
+    <main>
+        
+        <section data-aos="fade-left">
+            <div class="card" id="home">
+                <div class="testimonial-1">
+                    <div class="testimonial-details">
+                    <h3>Hey,There</h3>
+                    <h1>I am Josephine Sunday</h1>
+                    </div>
+                    <div class="testimonial-details">
+                        <h3>Freelance Web Designer & Developer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sed, ullam recusandae eveniet optio placeat esse labore magni quaerat voluptatem possimus sit facere distinctio. Quidem ex quibusdam delectus eveniet praesentium.</p>
+                    </div>
+                    <div class="btn">
+                        <button>Hire me</button>
+                    </div>
+                </div>
+                <div class="testimonial-2">
+                    <div class="image-container">
+                        <img src="images/IMG-20250429-WA0002.jpg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="testimonial-3">
+                <div class="Portfolio">
+                <div class="experience review">
+                    <div class="icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <div id="remarks">
+                        <span>9 Years of</span>
+                        <p>Experience</p>
+
+                    </div>
+                </div>
+                <div class="project review">
+                    <div class="icon">
+                        <i class="fa-solid fa-file"></i>
+                    </div>
+                    <div id="remarks">
+                        <span>240+ Projects</span>
+                        <p>Completed</p>
+
+                    </div>
+                </div>
+                <div class="client review">
+                    <div class="icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div id="remarks">
+                        <span>200+ Happy</span>
+                        <p>Clients</p>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="about-to" id="about" data-aos="fade-right">
+            <div class="about">
+                <div class="about-image">
+                    <img src="images/482aa1e28df22a34868c734abc65d766.jpg" alt="">
+                    <div class="about-icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+                
+                <div class="about-details">
+                    <div>
+                        <h1>About Me</h1>
+                        <h2>Professional Web designer & Developer having 9+ years of experience</h2>
+                    </div>
+                    <div class="ptd">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque officiis quam aperiam voluptas aut ad beatae, quod ratione animi vel perspiciatis sequi hic accusantium nisi. Eius tempore adipisci dolorem facere.</p>
+                        
+                    </div>
+                    <div class="ptd-d">
+                        <span>Name:</span>
+                        <p>S Josephine</p>
+                        <span>Age:</span>
+                        <p>24 Years</p>
+                    </div>
+                    <div class="ptd-d">
+                        <span>Email:</span>
+                        <p>xyz@gmail.com</p>
+                        <span>Hobby:</span>
+                        <p>Cricket</p>
+                    </div>
+                    <div><button type="submit">Download CV</button></div>
+                </div>
+            </div>
+        </section>
+        <section class="service" data-aos="fade-left">
+            <div class="services" id="service">
+                <h3>Services</h3>
+                <h1>I PROVIDE AWESOME SERVICES</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis exercitationem aut sapiente sequi ut labore et dolore magna alqua </p>
+            </div>
+            <div class="service-templates">
+                <div class="temp1 temp">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                  <div class="service-header">
+                    <h1>Web Design</h1>
+                  </div>
+                  <div class="service-pgraph">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic inventore eaque ipsam tempora laboriosam labore magnam, qui velit similique. </p>
+                  </div>
+                  <div class="service-review">
+                    <p>80+ projects</p>
+                  </div>
+                </div>
+                <div class="temp2 temp">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-chevron-left"></i>
+                         
+                        <i class="fa-solid fa-chevron-right"></i> 
+                    </div>
+                  <div class="service-header">
+                    <h1>Web Design</h1>
+                  </div>
+                  <div class="service-pgraph">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic inventore eaque ipsam tempora laboriosam labore magnam, qui velit similique. </p>
+                  </div>
+                  <div class="service-review">
+                    <p>120+ projects</p>
+                  </div>
+                </div>
+                <div class="temp3 temp">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                  <div class="service-header">
+                    <h1>App Development</h1>
+                  </div>
+                  <div class="service-pgraph">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas hic inventore eaque ipsam tempora laboriosam labore magnam, qui velit similique. </p>
+                  </div>
+                  <div class="service-review">
+                    <p>40+ projects</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section class="resume" data-aos="fade-right">
+            <div class="resume-header">
+                <h3>Resume</h3>
+                <h1>Education & Experience</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi culpa asperiores est animi et alias non earum eos voluptatibus fuga.</p>
+            </div>
+                <div class="resume-wrapper">
+                <div class="education">
+                    <h1>EDUCATION</h1>
+                    <div class="main-ed">
+                    <div class="education-review1">
+                         <h3>2016-2018</h3>
+                        <h1>Computer Application (M)</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero incidunt consectetur quis blanditiis, excepturi optio temporibus saepe assumenda et inventore.</p>
+                        <span class="location">North Euro University</span>
+                    </div>
+                    <div class="education-review1 education-review">
+                        <h3>2012-2015</h3>
+                        <h1>Computer Application (B)</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero incidunt consectetur quis blanditiis, excepturi optio temporibus saepe assumenda et inventore.</p>
+                        <span class="location">North Euro University</span>
+                    </div>
+                    <div class="education-review1">
+                        <h3>2000-2012</h3>
+                        <h1>High School Degree</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero incidunt consectetur quis blanditiis, excepturi optio temporibus saepe assumenda et inventore.</p>
+                        <span class="location">Instanbul</span>
+                    </div>
+                </div>
+            </div>
+                <div class="experience">
+                    <h1>EXPERIENCE</h1>
+                    <div class="main-ed">
+                    <div class="education-review1">
+                        <h3>2022-2023</h3>
+                        <h1>Senior Web Developer</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero incidunt consectetur quis blanditiis, excepturi optio temporibus saepe assumenda et inventore.</p>
+                        <span class="location">Netlink</span>
+                    </div>
+                    <div class="education-review1">
+                        <h3>2020-2022</h3>
+                        <h1>Front-End Web Developer</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero incidunt consectetur quis blanditiis, excepturi optio temporibus saepe assumenda et inventore.</p>
+                        <span class="location">Developmen World</span>
+                    </div>
+                    <div class="education-review1">
+                        <h3>2019-2020</h3>
+                        <h1>UI/Ux Design</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero incidunt consectetur quis blanditiis, excepturi optio temporibus saepe assumenda et inventore.</p>
+                        
+                        <span class="location">Design Home</span>
+                    
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+        </section>
+        <section class="works" id="portfolio" data-aos="fade-left">
+            <div class="work-header">
+                <h3>Portfolio</h3>
+                <h1>Some Of My Latest Works</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos maxime dolore optio perspiciatis laboriosam at ex consectetur quasi reiciendis distinctio!</p>
+            </div>
+            <div class="work">
+                <ul class="work-links">
+                    <li><a href="#" class="work-link work-link__highlight">ALL</a></li>
+                    <li><a href="#" class="work-link">DESIGN</a></li>
+                    <li><a href="#" class="work-link">DEVELOPMENT</a></li>
+                    <li><a href="#" class="work-link">LOGO</a></li>
+                </ul>
+            </div>
+            <div class="image-wrapper">
+            <div class="work-images" >
+                <div class="work-image"><img src="images/81b7ee0c54e4785d7dcb2a80bdb60286.jpg" alt="">
+                    <div class="image-overlay">
+                        <button>VIEW-MORE</button></div></div>
+                <div class="work-image"><img src="images/4d944572397d91ff23eb88f4d23ac962.jpg" alt="">
+                    <div class="image-overlay">
+                        <button>VIEW-MORE</button></div></div>
+                <div class="work-image"><img src="images/75f573d8c5aa04c336c8fbd0172afba8.jpg" alt="">
+                    <div class="image-overlay">
+                        <button>VIEW-MORE</button></div></div>
+                <div class="work-image"><img src="images/c8a2c0eed765cce870cca80f7c2667f1.jpg" alt="">
+                    <div class="image-overlay">
+                        <button>VIEW-MORE</button></div></div>
+                <div class="work-image"><img src="images/e8548488ceaffddbb1c06a4758dddcff.jpg" alt="">
+                    <div class="image-overlay">
+                        <button>VIEW-MORE</button></div></div>
+                <div class="work-image"><img src="images/1734a675e8d2ff65650eee1c80ce1baa.jpg" alt="">
+                    <div class="image-overlay">
+                        <button>VIEW-MORE</button></div></div>
+                </div>
+            </div>
+            
+        </div>
+       
+        </section>
+    <section class="testimonial-s reusable" id="testimonial-s" data-aos="fade-right">
+        <div class="carousel-header" id="review">
+            <h3>Testimonials</h3>
+            <h1>what people say</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis, aspernatur est dignissimos harum deserunt iure maxime eveniet vel voluptas!</p>
+        </div>
+        <div class="owl-carousel owl-theme testimonial-container">
+            <div class="item testimonial-card">
+                <div class="test-card-body">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <h2>Awesome Coding</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro voluptate deserunt. Accusantium ipsam illum, voluptatum magnam molestias similique est. Enim sunt magni corrupti vero sit hic quis doloremque non?</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/5f22ec712bd5d1bb7ac8d0475da90c87.jpg" alt="">
+                    </div>
+                    <div class="profile-des">
+                        <span>Lisa Finn</span>
+                        <span>Description</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item testimonial-card">
+                <div class="test-card-body">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <h2>Unique Design</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro voluptate deserunt. Accusantium ipsam illum, voluptatum magnam molestias similique est. Enim sunt magni corrupti vero sit hic quis doloremque non?</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/66d9776a78196f1cc74365639b630a51.jpg" alt="">
+                    </div>
+                    <div class="profile-des">
+                        <span>Lucy Sale</span>
+                        <span>Description</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item testimonial-card">
+                <div class="test-card-body">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <h2>Just Awesome</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro voluptate deserunt. Accusantium ipsam illum, voluptatum magnam molestias similique est. Enim sunt magni corrupti vero sit hic quis doloremque non?</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/77f6bb3e60a7828021e9e4877bc05448.jpg" alt="">
+                    </div>
+                    <div class="profile-des">
+                        <span>Gladys Sunday</span>
+                        <span>Description</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item testimonial-card">
+                <div class="test-card-body">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <h2>Awesome Coding</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro voluptate deserunt. Accusantium ipsam illum, voluptatum magnam molestias similique est. Enim sunt magni corrupti vero sit hic quis doloremque non?</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/282e985946330e9039d83b5195095919.jpg" alt="">
+                    </div>
+                    <div class="profile-des">
+                        <span>Blessing Sunday</span>
+                        <span>Description</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item testimonial-card">
+                <div class="test-card-body">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <h2>Simple-Ways</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro voluptate deserunt. Accusantium ipsam illum, voluptatum magnam molestias similique est. Enim sunt magni corrupti vero sit hic quis doloremque non?</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/1916931f2c419a9ee5acef2ee7f098d2.jpg" alt="">
+                    </div>
+                    <div class="profile-des">
+                        <span>Tally Sunday</span>
+                        <span>Description</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item testimonial-card">
+                <div class="test-card-body">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <h2>Awesome Coding</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro voluptate deserunt. Accusantium ipsam illum, voluptatum magnam molestias similique est. Enim sunt magni corrupti vero sit hic quis doloremque non?</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/a6270b0e604b1306254df9447580bf33.jpg" alt="">
+                    </div>
+                    <div class="profile-des">
+                        <span>Deborah Joe</span>
+                        <span>Description</span>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    </main>
+    <footer id="contact" data-aos="fade-right">
+        <div class="forms">
+            <div class="form-wrapper-1">
+            <div class="form-header">
+                <h1>Get  In Touch</h1>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, saepe.</p>
+               </div>
+               <div class="form">
+                <p>
+                    <label for="name">Your Name</label><br>
+                <input type="text" name="name" id="name" required>
+                </p>
+                <p>
+                    <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" required>
+                </p>
+               </div>
+               <div class="form-icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+               </div>
+            </div>
+            <div class="form-wrapper2">
+                <textarea name="message" id="message"  cols="50" rows="20"  placeholder="say something"></textarea>
+                
+                    <button>Message Me</button>
+                
+                
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+          AOS.int({
+              offset:400,
+              duration:1000
+          });
+    </script>
+</body>
+</html> 
